@@ -37,3 +37,25 @@ const myFunction = function (){
 
 console.log(typeof null);
 console.log(typeof myFunction);
+
+// Stack (primitive), Heap(Non-primitive) ---Two types 0f memory
+
+let myYoutubename = "Arceus725"
+let anothername = myYoutubename
+anothername = "chemma420"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "lamo@gmail.com",
+    upi: "lamo@ybl"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "ep@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
