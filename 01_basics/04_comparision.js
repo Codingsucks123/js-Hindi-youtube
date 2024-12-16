@@ -13,7 +13,7 @@ console.log(null >= 0); //Thats y null > 0 is false and null >= 0 is true.
 
 console.log(undefined == 0);
 console.log(undefined > 0);
-console.log(undefined < 0); //This also causes confusion so better avoid 
+console.log(undefined < 0); //This also causes confusion so better avoid thius 
 
 // ===   called strict check
 
